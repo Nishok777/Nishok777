@@ -1,0 +1,58 @@
+.a1
+{
+    width: 680px;
+    height: 650px;
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+      
+ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.h
+{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    
+}
+.t1
+{
+    margin-left: 100px;
+}
+.b1
+{
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.b1:hover
+{
+    background-color: green;
+    color: white;
+}
+
